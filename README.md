@@ -1,0 +1,1 @@
+# Common Package for shop api which is written in REST Format
