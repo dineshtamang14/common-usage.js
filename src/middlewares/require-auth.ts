@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import User from '../../src/models/user';
-import { NotAuthorizedError } from '../'
+import { NotAuthorizedError } from '..'
 
 export const requireAuth = async (req: Request, res: Response, next: NextFunction) => {
     if(!req.currentUser) throw new NotAuthorizedError()
