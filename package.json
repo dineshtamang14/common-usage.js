@@ -2,7 +2,11 @@
   "name": "common-usage.js",
   "version": "1.0.0",
   "description": "This package is mainly used to handle Middlewares and Errors",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
