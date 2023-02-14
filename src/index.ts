@@ -16,3 +16,4 @@ export * from './middlewares/uploader'
 export * from './constants/auth/user.interfaces'
 export * from './services/authentication.service'
 export * from './constants/globals';
+export * from './constants/seller/product.interface'
